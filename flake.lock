@@ -1,0 +1,60 @@
+{
+  "nodes": {
+    "flake-utils": {
+      "locked": {
+        "lastModified": 1644229661,
+        "narHash": "sha256-1YdnJAsNy69bpcjuoKdOYQX0YxZBiCYZo4Twxerqv7k=",
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "rev": "3cecb5b042f7f209c56ffd8371b2711a290ec797",
+        "type": "github"
+      },
+      "original": {
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1645010845,
+        "narHash": "sha256-hO9X4PvxkSLMQnGGB7tOrKPwufhLMiNQMNXNwzLqneo=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "2128d0aa28edef51fd8fef38b132ffc0155595df",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixos-21.11",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "flake-utils": "flake-utils",
+        "nixpkgs": "nixpkgs",
+        "unsilence-src": "unsilence-src"
+      }
+    },
+    "unsilence-src": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1632317052,
+        "narHash": "sha256-0J3aFcQoV5NZJtrpUQXFbQtQpRIYHG1xqKGkaFfBUIo=",
+        "owner": "lagmoellertim",
+        "repo": "unsilence",
+        "rev": "d5f91ce877f88a0230ea832e01859fb5654f34fb",
+        "type": "github"
+      },
+      "original": {
+        "owner": "lagmoellertim",
+        "repo": "unsilence",
+        "type": "github"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
